@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoFernstaedt/Restaurant-Page-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoFernstaedt/Restaurant-Page-JS/issues"
+  },
+  "homepage": "https://github.com/MarcoFernstaedt/Restaurant-Page-JS#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
