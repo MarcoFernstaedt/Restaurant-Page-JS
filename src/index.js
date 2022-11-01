@@ -1,7 +1,5 @@
-import pageLoad from "./page-load";
+import * as module from "./page-load";
 
-const main = () => {
-    pageLoad()
-}
 
-main()
+module.pageLoad();
+

@@ -1,21 +1,34 @@
-function pageLoad() {
-    const body = document.querySelector("body")
-    body.style = "display: flex; justify-content: center; align-items: center; margin: 0; padding: 0; height: 100vh; width: 100vw; box-sizing: border-box; background-color: red;"
-
+export function pageLoad() {
+    // Selecting #content conatiner
     const content = document.getElementById("content")
-    content.style = "display: flex; justify-content: center; margin: 0; border: none; background-color: black; height: 98%; width: 98%;  color: white;"
 
-    let header = document.createElement("header")
-    header.style = "background-image: url('https://images.unsplash.com/photo-1591214896508-22fc74d84a75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80'); height: 60%; width: 100%;"
-    content.appendChild(header)
+    // creating img tag adding src and alt then appending to content container
+    const img = document.createElement("img")
+    img.classList.add("mainimg")
+    img.src = "https://images.unsplash.com/photo-1591214896508-22fc74d84a75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+    img.alt = "Image of Restaurant"
+    content.appendChild(img)
 
-    let img = "https://images.unsplash.com/photo-1591214896508-22fc74d84a75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+    // creating div to containe store copy adding a class and appending to content container
+    const aboutBg = document.createElement("div")
+    aboutBg.classList.add("about")
+    content.appendChild(aboutBg)
 
+    // creeating first p tag adding text and appending in aboutBg
+    const p1 = document.createElement("p")
+    p1.textContent = "The BEST Place in Town"
+    aboutBg.appendChild(p1)
 
-    let restaurantCopy = document.createElement("p")
-    restaurantCopy.textContent = "This is the BEST place in town to get the BEST food around"
+    // creeating second p tag adding text and appending in aboutBg
+    const p2 = document.createElement("p")
+    p2.textContent = "to get"
+    aboutBg.appendChild(p2)
 
-    content.appendChild(restaurantCopy)
+    // creeating third p tag adding text and appending in aboutBg
+    const p3 = document.createElement("p")
+    p3.textContent = "The BEST Food Around"
+    aboutBg.appendChild(p3)
+
 }
 
-export default pageLoad
+// export default pageLoad
