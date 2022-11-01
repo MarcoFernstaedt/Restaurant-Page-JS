@@ -1,4 +1,8 @@
-export function pageLoad() {
+import { clearPage } from "./clear-page"
+
+clearPage()
+
+function pageLoad() {
     // Selecting #content conatiner
     const content = document.getElementById("content")
 
@@ -31,4 +35,4 @@ export function pageLoad() {
 
 }
 
-// export default pageLoad
+export default pageLoad

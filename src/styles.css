@@ -67,7 +67,7 @@ nav li:hover {
     border-bottom: solid 3px gold;
 }
 
-#active {
+.active {
     color: gold;
     border-bottom: solid 3px gold;
 }
