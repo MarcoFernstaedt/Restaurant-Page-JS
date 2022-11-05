@@ -23,6 +23,8 @@ body {
     align-items: center;
     height: 100%;
     width: 45%;
+    animation: fadeIn 0.75s;
+    overflow-y: auto;
 }
 
 nav {
@@ -38,7 +40,7 @@ nav {
 nav h1 {
     font-size: x-larger;
     font-style: italic;
-    color: repeat(bottom, right, gold, black);
+    /* color: repeat(bottom, right, gold, black); */
 }
 
 
@@ -90,4 +92,35 @@ p {
     font-style: italic;
     color: white;
     margin: 15px;
+}
+
+.pageh1 {
+    margin: 50px;
+    font-size: 4rem;
+}
+
+.menuimgs {
+    height: 250px;
+    width: 320px;
+    margin: 15px;
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    word-wrap: break-word;
+    margin: 25px;
+}
+
+/* creates page load transition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }

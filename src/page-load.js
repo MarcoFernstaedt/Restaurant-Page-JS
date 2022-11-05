@@ -1,8 +1,9 @@
-import { clearPage } from "./clear-page"
-
-clearPage()
+import clearPage from "./clear-page"
 
 function pageLoad() {
+    // clear screen for new content
+    clearPage()
+
     // Selecting #content conatiner
     const content = document.getElementById("content")
 
