@@ -23,6 +23,7 @@ body {
     align-items: center;
     height: 100%;
     width: 45%;
+    padding: 40px;
     animation: fadeIn 0.75s;
     overflow-y: auto;
 }
@@ -86,7 +87,12 @@ nav li:hover {
     border-bottom: solid 3px gold;
 }
 
-.pageh1 {
+.headingtag {
+    margin: 50px;
+    font-size: 400px;
+}
+
+h2 {
     margin: 50px;
     font-size: 4rem;
 }

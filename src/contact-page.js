@@ -7,7 +7,7 @@ function contactPage() {
 
     const header = document.createElement("h1")
     header.textContent = "Contact Us"
-    header.classList.add("pageh1")
+    header.classList.add("headingtag")
 
     content.appendChild(header)
 
