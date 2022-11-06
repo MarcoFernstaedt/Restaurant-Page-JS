@@ -40,7 +40,6 @@ nav {
 nav h1 {
     font-size: x-larger;
     font-style: italic;
-    /* color: repeat(bottom, right, gold, black); */
 }
 
 
@@ -87,13 +86,6 @@ nav li:hover {
     border-bottom: solid 3px gold;
 }
 
-p {
-    font-size: x-large;
-    font-style: italic;
-    color: white;
-    margin: 15px;
-}
-
 .pageh1 {
     margin: 50px;
     font-size: 4rem;
@@ -110,6 +102,9 @@ p {
     width: 500px;
     word-wrap: break-word;
     margin: 25px;
+    font-size: x-large;
+    font-style: italic;
+    color: white;
 }
 
 /* creates page load transition */

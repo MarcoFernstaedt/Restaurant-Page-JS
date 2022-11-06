@@ -6,7 +6,7 @@ function menuPage() {
     const content = document.getElementById("content")
 
     const header = document.createElement("h1")
-    header.classList.add("menuh1")
+    header.classList.add("pageh1")
     header.textContent = "MENU"
 
     content.appendChild(header)

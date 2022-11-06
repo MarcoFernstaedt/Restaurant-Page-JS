@@ -8,6 +8,7 @@ function contactPage() {
     const header = document.createElement("h1")
     header.textContent = "Contact Us"
     header.classList.add("pageh1")
+
     content.appendChild(header)
 
     const phoneNum = document.createElement("h2")
